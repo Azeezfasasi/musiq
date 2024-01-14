@@ -1,0 +1,56 @@
+.get-intouch-container {
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.drop-us {
+    display: inline-block;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.get-intouch-container h1 {
+    color: white;
+    font-size: 70px;
+}
+
+.booking {
+    color: white;
+    display: inline-block;
+    width: 40%;
+    margin: 0 10px;
+    text-align: left;
+}
+
+.map {
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+    .drop-us {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .booking {
+        display: block;
+        width: 90%;
+        margin: 0 auto 40px auto;
+    }
+
+    .map {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    iframe {
+        width: 300px;
+        border-radius: 10px;
+    }
+}

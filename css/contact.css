@@ -1,0 +1,64 @@
+.contact-container {
+    display: block;
+    width: 40%;
+    margin: 80px auto 0 auto;
+}
+
+.form-title {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+label {
+    color: white;
+    font-size: 24px;
+}
+
+input[type=text], input[type=email] {
+    display: block;
+    width: 100%;
+    padding: 15px 10px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    font-size: 24px;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.submit-container {
+    display: block;
+    width: 30%;
+    text-align: center;
+}
+
+.submit-container a {
+    display: block;
+    color: white;
+    font-size: 28px;
+    background-color: transparent;
+    border: 1px solid white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 20px 0 0 0;
+    border-radius: 10px;
+}
+
+.submit-container a:hover {
+    background-color: white;
+    color: black;
+}
+
+@media (max-width: 600px) {
+    .contact-container {
+        width: 70%;
+    }
+
+    .submit-container {
+        width: 50%;
+    }
+}

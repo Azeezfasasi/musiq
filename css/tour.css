@@ -1,0 +1,80 @@
+.tour-container {
+    display: block;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.tour-title {
+    text-align: left;
+}
+
+.tour-title h1 {
+    font-size: 70px;
+    margin-bottom: -10px;
+}
+
+.tour-title hr {
+    margin-bottom: 35px;
+}
+
+.ticket-section {
+    display: block;
+    width: 100%;
+}
+
+.ticket {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    margin-top: 20px;
+}
+
+.ticket .date {
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+    vertical-align: middle;
+    margin-top: 10px;
+}
+
+.ticket .date span {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.ticket p {
+    font-size: 20px;
+    vertical-align: middle;
+}
+
+.ticket a {
+    color: white;
+    border: 1px solid white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    height: 20px;
+    vertical-align: middle;
+    margin-top: 5px;
+}
+
+@media (max-width: 600px) {
+    .ticket {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        text-align: left;
+        padding-bottom: 30px;
+    }
+
+    .ticket p {
+        font-weight: normal;
+        font-size: 18px;
+    }
+
+
+}
